@@ -1,0 +1,10 @@
+default vesamenu.c32
+prompt 0
+timeout 100
+OUTTIMEOUT ubuntu
+
+LABEL ubuntu
+        MENU LABEL ^Boot default
+        MENU DEFAULT
+        KERNEL vmlinuz
+        APPEND initrd=initrd
